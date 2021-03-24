@@ -1,6 +1,7 @@
 # compup-ptp
 ### Comparison uploader for PassThePopcorn.
 ## Installation
+* `pip install requests`
 * `install -D -m 755 <(curl -fsSL git.io/JYTIj) ~/.local/bin/compup-ptp`\
 (If you don' have `~/.local/bin` in your PATH, add `PATH="$HOME/.local/bin:$PATH"` to your `.bashrc`/`.zshrc`.)
 * Add your API key in the script. (`nano ~/.local/bin/compup-ptp`)
